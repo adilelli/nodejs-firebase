@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-21T17:25:23.960Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="73bquwQA7cXZyUs76FGf" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-21T17:33:21.726Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Rmos3Kv3y2HWlESUJvgH" version="22.0.6" type="github">
   <diagram name="Page-1" id="f31c993MnNktxt3acmLQ">
     <mxGraphModel dx="848" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -86,10 +86,10 @@
           <mxGeometry x="70" y="480" width="190" height="320" as="geometry" />
         </mxCell>
         <mxCell id="MZs_MeEJ6j7sGni2RoES-33" value="&lt;h1&gt;Edit Course&lt;br&gt;&lt;/h1&gt;&lt;div&gt;For a certain time, student are able to add or drop course&lt;/div&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="500" width="190" height="100" as="geometry" />
+          <mxGeometry x="520" y="480" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="MZs_MeEJ6j7sGni2RoES-34" value="&lt;h1&gt;Pre Approval&lt;/h1&gt;&lt;div&gt;Happy Day Scenario.&lt;/div&gt;&lt;div&gt;For courses with less than 10 registered students, a new student is granted to register the particular course.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exception&lt;/div&gt;&lt;div&gt;For courses with more than 10 registered student, the course will be disabled for student to register.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="500" width="190" height="220" as="geometry" />
+        <mxCell id="MZs_MeEJ6j7sGni2RoES-34" value="&lt;h1&gt;Pre Approval&lt;/h1&gt;&lt;div&gt;The pre-approval will check whether or not registration exceeds 10 registered student&lt;/div&gt;&lt;div&gt;&lt;br&gt;Happy Day Scenario.&lt;/div&gt;&lt;div&gt;For courses with 10 or less registered students, a new student is granted to register the particular course.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exception&lt;/div&gt;&lt;div&gt;For courses with more than 10 registered student, the course will be disabled for student to register.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="480" width="190" height="260" as="geometry" />
         </mxCell>
         <mxCell id="MZs_MeEJ6j7sGni2RoES-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.025;exitY=0.425;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -100,11 +100,11 @@
         <mxCell id="MZs_MeEJ6j7sGni2RoES-37" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MZs_MeEJ6j7sGni2RoES-38" value="&lt;h1&gt;Post Approval&lt;/h1&gt;&lt;div&gt;Happy Day Scenario.&lt;/div&gt;&lt;div&gt;For courses with 3 or more registered students, the new student registration will be successful.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exception&lt;/div&gt;&lt;div&gt;For courses with less than 3 registered student, the registration will be unsuccessful.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="730" width="190" height="220" as="geometry" />
+        <mxCell id="MZs_MeEJ6j7sGni2RoES-38" value="&lt;h1&gt;Post Approval&lt;/h1&gt;&lt;div&gt;The post approval will check whether not not the registered meets a minimum or 3 registered student.&lt;br&gt;&lt;br&gt;Happy Day Scenario.&lt;/div&gt;&lt;div&gt;For courses with 3 or more registered students, the new student registration will be successful.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Exception&lt;/div&gt;&lt;div&gt;For courses with less than 3 registered student, the registration will be unsuccessful.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="610" width="190" height="280" as="geometry" />
         </mxCell>
         <mxCell id="MZs_MeEJ6j7sGni2RoES-39" value="&lt;h1&gt;Course Info Staff&lt;/h1&gt;The professor will be able to access the on-line system to&lt;br&gt;indicate which courses they will be teaching. They will also need to see which&lt;br&gt;students signed up for their course offerings&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="730" width="190" height="200" as="geometry" />
+          <mxGeometry x="310" y="820" width="190" height="200" as="geometry" />
         </mxCell>
         <mxCell id="MZs_MeEJ6j7sGni2RoES-40" value="&lt;h1&gt;&lt;/h1&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Course Content for Student (KIV)&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;The student and professor will be able to access the on-line system to access learning materials and all of the e learning provided for the particular course.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="850" width="190" height="200" as="geometry" />
